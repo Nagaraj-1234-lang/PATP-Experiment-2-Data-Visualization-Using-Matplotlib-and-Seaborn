@@ -64,3 +64,44 @@ plt.show()
 <img width="846" height="393" alt="image" src="https://github.com/user-attachments/assets/b893bedc-6645-4707-95eb-74a0202ed8c4" />
 
 ## Input 3
+## Scatter plot
+```
+plt.figure(figsize=(6,4))
+sns.scatterplot(x='Age', y='Salary', data=df, color='green')
+plt.title("Age vs Salary")
+plt.xlabel('Age')
+plt.ylabel('Salary')
+plt.show()
+````
+## Output 3
+
+<img width="558" height="393" alt="image" src="https://github.com/user-attachments/assets/36c711d6-5282-420d-ac32-05d33b240101" />
+
+## Input 4
+## Piechart
+```
+plt.figure(figsize=(6,6))
+plt.pie(
+    df['Salary'],
+    labels=df['Age'],
+    colors=df['Salary_color'],
+    autopct='%1.1f%%'
+)
+plt.title("Salary distribution by Age")
+plt.show()
+```
+## Output 4
+
+
+
+## Input 5
+```
+
+
+
+
+
+
+
+
+
