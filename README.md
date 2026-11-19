@@ -92,16 +92,21 @@ plt.show()
 ```
 ## Output 4
 
+<img width="481" height="504" alt="image" src="https://github.com/user-attachments/assets/e6f9fb99-71b8-44fa-acea-790a16d5b37c" />
 
 
 ## Input 5
+## Box plot
 ```
+plt.figure(figsize=(6,4))
+sns.boxplot(x=df['Salary'], color='gold')
+plt.title('Salary Distribution')
+plt.xlabel('Salary')
+plt.show()
+```
+## Output 5
 
+<img width="489" height="393" alt="image" src="https://github.com/user-attachments/assets/d3c8e563-4979-42ae-a877-b5a709bcee21" />
 
-
-
-
-
-
-
-
+## Result
+Thus, the dataset was successfully created and visualized using Matplotlib and Seaborn libraries. Histogram, scatter plot, and box plot were generated to analyze age distribution, the relationship between age and salary, and salary distribution, respectively.
